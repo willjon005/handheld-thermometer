@@ -57,7 +57,7 @@ void loop() {
   display.setCursor(0, 0);
 
   // Print text
-  display.printf("Temperature:\n %.2lfC / %.2lfF", temp_C, temp_F);
+  display.printf("Object Temperature:\n %.2lfC / %.2lfF", temp_C, temp_F);
 
   // real time graph
   // shift over all items in the graph array, and place the current scaled temperature into the 127th slot
